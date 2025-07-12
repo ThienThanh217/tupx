@@ -2,32 +2,32 @@
 *** Danh Sách Lệnh cài đặt tools xmrigcc miner để đào tất cả các coin chạy cpu ***
 **********************************************************************************
 *** Các lệnh phụ trợ tham khảo:
-sudo su 
-rm -f [Tên File Cần Xóa]
-rm -r [Tên Thư Mục Cần Xóa]
-mrdir [Tên Thư Mục Cần Tạo]
-mv [Tên File Muốn Đổi] [Tên File Mới]
+  sudo su 
+  rm -f [Tên File Cần Xóa]
+  rm -r [Tên Thư Mục Cần Xóa]
+  mrdir [Tên Thư Mục Cần Tạo]
+  mv [Tên File Muốn Đổi] [Tên File Mới]
 
 **********************************************************************************
 
 1- Tập lệnh hệ thống update:
 
-sudo su
-apt-get update -y 
-apt-get upgrade -y
-apt-get install wget 
-apt-get install get 
-apt-get install nano
-apt-get install git -y
+  sudo su
+  apt-get update -y 
+  apt-get upgrade -y
+  apt-get install wget 
+  apt-get install get 
+  apt-get install nano
+  apt-get install git -y
 
 2- Tải và cài đặt ứng dụng xmrigcc để khai thác coin:
 
-git clone https://github.com/ThienThanh217/tupx.git
-cd tupx
-tar xvaf xmrigcc-miner-arm-android-3.4.6.tar.gz
-chmod u+x xmrigDaemon
-chmod u+x xmrigMiner
-chmod +x config.json
+  git clone https://github.com/ThienThanh217/tupx.git
+  cd tupx
+  tar xvaf xmrigcc-miner-arm-android-3.4.6.tar.gz
+  chmod u+x xmrigDaemon
+  chmod u+x xmrigMiner
+  chmod +x config.json
 
 3- Chỉnh sửa tập tin " config.json "  trước khi khai thác:
 
