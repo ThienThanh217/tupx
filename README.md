@@ -2,6 +2,7 @@
 *** Danh Sách Lệnh cài đặt tools xmrigcc miner để đào tất cả các coin chạy cpu ***
 **********************************************************************************
 *** Các lệnh phụ trợ tham khảo:
+
   sudo su 
   rm -f [Tên File Cần Xóa]
   rm -r [Tên Thư Mục Cần Xóa]
